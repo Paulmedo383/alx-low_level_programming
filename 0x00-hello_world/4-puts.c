@@ -1,10 +1,13 @@
-#include <studio.h>
+#include <stdio.h>
 /**
- *  main - entry point 
+ *  main - entry
  *
  *  Return: 0 after printing the function
  */
-int main(viod)
-{puts("/"Programming is like building a multilingual puzzle");
-	return (0);
+int main()
+{
+	char Mystr []= "Programming is like building a multilingual puzzle";
+	puts (Mystr);
+return 0;
 }
+
