@@ -3,9 +3,9 @@
  * main -entry
  * REturn: 0 after priningthe functions
  */
-int main(void)
+int main()
 {
-	char Mystr[] = 'Programming is like building a multilingual puzzle';
+	char Mystr[] = "Programming is like building a multilingual puzzle";
 	puts(Mystr);
 	return (0);
 }
