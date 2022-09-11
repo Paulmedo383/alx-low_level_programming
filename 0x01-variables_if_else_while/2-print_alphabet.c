@@ -4,13 +4,15 @@
  * main - Entry
  *Return: 0
  */
+
 int main(void)
 {
-	char ch;
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-}
+	char abc;
+
+	for (abc = 'a' ; abc <= 'z' ; abc++)
+
 {
-	putchar(ch);
+	putchar(abc);
 }
 putchar('\n');
 return (0);
