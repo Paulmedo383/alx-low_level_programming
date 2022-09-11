@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry
  *
@@ -10,13 +11,15 @@ int main(void)
 {
 	int num;
 
-	for (num = 0 ; num <= 9 ; num++)
+	for (num = '0' ; num <= '9' ; num++)
 	{
-		putchar('0' + num);
+		putchar(num);
+	}
+
+	for (abc = 'a' ; abc <= 'z' ; abc++)
+	{
+		putchar(abc);
 	}
 	putchar('\n');
 	return (0);
 }
-
-
-
