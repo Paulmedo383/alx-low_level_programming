@@ -14,9 +14,9 @@ int main(void)
 
 	int d3;
 
-	for (d1 = 0; d1 != 8; d1++)
+	for (d1 = 0 ; d1 != 8 ; d1++)
 	{
-		for (d2 = d1 + 1; d2 != 9; d2++)
+		for (d2 = d1 + 1 ; d2 != 9 ; d2++)
 		{
 			d3 = d2 + 1;
 			do {
@@ -29,6 +29,4 @@ int main(void)
 					putchar(' ');
 				}
 				d3++;
-				while (d3 != 10);
-				return(0);
-			}
+			} while (d3 != 10);
