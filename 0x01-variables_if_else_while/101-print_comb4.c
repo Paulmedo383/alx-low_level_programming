@@ -30,3 +30,8 @@ int main(void)
 				}
 				d3++;
 			} while (d3 != 10);
+		}
+	}
+	putchar('\n');
+	return (0);
+}
