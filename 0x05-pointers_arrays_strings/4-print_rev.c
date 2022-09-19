@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_rev -  prints a string, in reverse, followed by a new line
+ * print_rev -  prints a string, in reverse
  * @s: string to be reversed
  */
 
@@ -20,7 +20,7 @@ void print_rev(char *s)
 
 	len1 = len - 1;
 
-	for (i = 0; a < len / 2; a++)
+	for (a = 0; a < len / 2; a++)
 	{
 		tmp = s[a];
 		s[a] = s[len1];
